@@ -85,8 +85,6 @@ body {
   gap: var(--spacing-xl);
   min-height: 80vh;
   align-items: start;
-  max-width: 100%;
-  overflow: hidden;
 }
 
 .sidebar {
@@ -95,16 +93,12 @@ body {
   gap: var(--spacing-lg);
   position: sticky;
   top: var(--spacing-xl);
-  max-height: calc(100vh - var(--spacing-2xl));
-  overflow-y: auto;
 }
 
 .content-area {
   min-height: 600px;
   display: flex;
   flex-direction: column;
-  min-width: 0; /* Prevents flex item from overflowing */
-  max-width: 100%;
 }
 
 /* Responsive Design */
